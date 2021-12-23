@@ -10,6 +10,8 @@
 
 # JSON
 
+## [materials/4D48F86D-ECE2-462D-8509-5CC70644CDBC.json](materials/4D48F86D-ECE2-462D-8509-5CC70644CDBC.json)
+
 ```json
 {
   "@class": "Material",
@@ -77,5 +79,63 @@
     ]
   }
 }
+```
 
+## [scenes/1C435217-1F56-4B14-B162-D5571841CD11.json](scenes/1C435217-1F56-4B14-B162-D5571841CD11.json)
+
+```json
+// ...
+{
+  "@class": "BaseNode",
+  "color_index": 6,
+  "object3D": {
+    "@class": "BaseObject3D",
+    "id": {"uuid": "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2"},
+    "name": "Item 1",
+    "enabled": true,
+    "visible": true,
+    "hitVisible": true,
+    "colliders": [
+      {
+        "@class": "BaseComponentCollider",
+        "colliderId": {"uuid": "3BF92E38-04DF-46A6-A60E-CB76667083A9"}
+      }
+    ],
+    "geometry": {
+      "@class": "BaseComponentGeometry",
+      "meshId": {"uuid": "2DFB2E0B-E99A-4A53-8D30-B57257AF17EB"},
+      "static": false,
+      "shadowCast": true,
+      "shadowReceive": true
+    },
+    
+    "material": {
+      "@class": "BaseComponentMaterial",
+      "materialId": {"uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"},
+      "mapsStates": 0
+    },
+    
+    "rigidBody": {
+      "@class": "BaseComponentPhysBody",
+      "rigidBodyId": {"uuid": "70D69DB0-8308-441B-BD47-892C70F11781"},
+      "isEnabled": true
+    },
+    "transform": {
+      "@class": "BaseComponentTransformable",
+      "localTransforms": {
+        "values": [
+          0.03999999910593033, 0, 0,                   0,
+          0,                   1, 0,                   0,
+          0,                   0, 0.03999999910593033, 0,
+          0,                   0, 0,                   1
+        ]
+      }
+    },
+    "metadata": {
+      "importedIdentifier": "Plane_zero",
+      "importedName": "Plane_zero",
+      "isBone": false
+    }
+  }
+// ...
 ```
