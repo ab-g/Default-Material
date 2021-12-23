@@ -3,34 +3,33 @@
   "id": {
     "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
   },
-  "name": "Gray",
   "renderingType": "opaque",
   "blendingType": "normal",
   "detailType": "none",
   "lightningType": "perPixel",
   "colorsType": "no",
-  "shadingType": "textured",
+  "shadingType": "colored",
   "sideType": "front",
   "depthType": "default",
   "ambient": {
     "values": [
-      0,
-      0,
-      0
+      0.33000001311302185,
+      0.33000001311302185,
+      0.33000001311302185
     ]
   },
   "diffuse": {
     "values": [
-      0.7297400832176208,
-      0.7297400832176208,
-      0.7297400832176208
+      1,
+      1,
+      1
     ]
   },
   "specular": {
     "values": [
-      0.7297400832176208,
-      0.7297400832176208,
-      0.7297400832176208
+      1,
+      1,
+      1
     ]
   },
   "emissive": {
@@ -47,8 +46,8 @@
       1
     ]
   },
-  "opacity": 1,
-  "shininess": 6.311791896820068,
+  "opacity": 0.75,
+  "shininess": 8,
   "metalness": 1,
   "roughness": 1,
   "refraction": 0.5,
@@ -57,7 +56,7 @@
   "normalScale": 1,
   "heightScale": 1,
   "diffuseMap": {
-    "uuid": "9F6B5CB4-A449-40E5-BC41-C65F6EB0A7F0"
+    "uuid": "00000000-0000-0000-0000-00000000000A"
   },
   "normalMap": {
     "uuid": "00000000-0000-0000-0000-000000000002"

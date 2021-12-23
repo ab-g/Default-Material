@@ -158,7 +158,7 @@
         "name": "Item 1",
         "enabled": true,
         "visible": true,
-        "hitVisible": false,
+        "hitVisible": true,
         "colliders": [
           {
             "@class": "BaseComponentCollider",
@@ -181,7 +181,7 @@
           "materialId": {
             "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
           },
-          "mapsStates": 127
+          "mapsStates": 0
         },
         "rigidBody": {
           "@class": "BaseComponentPhysBody",

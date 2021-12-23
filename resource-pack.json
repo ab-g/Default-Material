@@ -34,19 +34,7 @@
   },
   "images": {
     "@class": "StdResourceMapImage",
-    "map": [
-      {
-        "key": {
-          "uuid": "D6B9EBE3-D3D6-444C-8F37-F86FC7039750"
-        },
-        "value": {
-          "@class": "DevILImage",
-          "id": {
-            "uuid": "D6B9EBE3-D3D6-444C-8F37-F86FC7039750"
-          }
-        }
-      }
-    ]
+    "map": []
   },
   "lights": {
     "@class": "StdResourceMapLight",
@@ -116,29 +104,9 @@
       }
     ]
   },
-  "skinControllers": {
-    "@class": "StdResourceMapSkinController",
-    "map": []
-  },
-  "soundSamples": {
-    "@class": "StdResourceMapSoundSample",
-    "map": []
-  },
   "textures2d": {
     "@class": "StdResourceMapTexture2D",
-    "map": [
-      {
-        "key": {
-          "uuid": "9F6B5CB4-A449-40E5-BC41-C65F6EB0A7F0"
-        },
-        "value": {
-          "@class": "Texture2D",
-          "id": {
-            "uuid": "9F6B5CB4-A449-40E5-BC41-C65F6EB0A7F0"
-          }
-        }
-      }
-    ]
+    "map": []
   },
   "texturesCube": {
     "@class": "StdResourceMapTextureCube",
